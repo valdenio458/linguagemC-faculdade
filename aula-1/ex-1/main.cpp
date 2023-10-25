@@ -10,8 +10,8 @@ int main(int argc, char *argv[])
     printf("Nome \n");
     scanf("%s",&nome); // & é o endereço
     
-    printf("Endereco \n");
-    scanf("%s", &endereco);
+    printf("Endereco \n"); // saída
+    scanf("%s", &endereco); // entrada
     
     printf("Idade");
     scanf("%d", &idade);
