@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
     int idade;
     
     printf("Nome \n");
-    scanf("%s",&nome);
+    scanf("%s",&nome); // & é o endereço
     
     printf("Endereco \n");
     scanf("%s", &endereco);
