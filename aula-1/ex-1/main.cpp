@@ -16,8 +16,9 @@ int main(int argc, char *argv[])
     printf("Idade");
     scanf("%d", &idade);
     
-    printf("\n Nome: %s", nome);
-    printf("\n Endereco %d \n", idade);
+    printf("\n Nome: %s", nome);  
+    printf("\n Endereco: %s", endereco);
+    printf("\n Idade: %d", idade);
     
     return 0;
     
