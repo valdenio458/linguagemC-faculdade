@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
     scanf("%f", &nota2);
     
     media = (nota1 + nota2) / 2;
-    printf("A média das notas é: %f", media);
+    printf("A média das notas é: %f \n", media);
 
     
     return 0;
