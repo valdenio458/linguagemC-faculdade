@@ -12,17 +12,18 @@ int main(int argc, char *argv[])
         printf("\t (3) - Chocolate\n");
 
         scanf("%d", &i);
-    } while(i <1 || i > 3);
+    } while(i < 1 || i > 3);
 
     switch (i){
         case 1:
-            printf("\t Você escolheu flocos");
+            printf("\t Você escolheu flocos\n");
             break;
         case 2:
-            printf("\t Você escolheu creme");
+            printf("\t Você escolheu creme\n");
             break;
+
         case 3:
-            printf("\t Você escolheu chocolate");
+            printf("\t Você escolheu chocolate\n");
             break;
         
     }
