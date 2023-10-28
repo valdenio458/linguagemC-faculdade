@@ -7,8 +7,9 @@ int* gerarRandomico() {
     int a;
 
     for(a = 0; a < 10; a++) {
-        r[a] = rand() % 100;
-        printf("\nr[%d] = %d", a, r[a]);
+        r[a] = rand();
+        printf("r[%d] = %d\n", a, r[a]);
+        
     }
     return r;
 }
@@ -21,7 +22,7 @@ int main(){
     p = gerarRandomico();
 
     for ( i = 0; i < 10; i++ ) {
-      printf("\np[%d] = %d", i, p[i]);
+        printf("p[%d] = %d\n", i, p[i]);
     }
     return 0;
 }
