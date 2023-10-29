@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 
-/* Função fatorial*/
+/* Função somar*/
 int sum(int num) {
 
 if(num != 0){
@@ -16,7 +16,7 @@ else {
 int main() {
   int result = 0;
   result = sum(5);
-  printf(" O resultado da função fatorial é igual a %d. \n", result);
+  printf(" O resultado da função somar é igual a %d. \n", result);
 
   return 0;
 }
